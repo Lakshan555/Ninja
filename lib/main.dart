@@ -34,7 +34,7 @@ class NinjaCard extends StatelessWidget {
                 letterSpacing: 2.0,
               ) ,
             ),
-            SizedBox(height: 10.0,),
+            SizedBox(height: 10.0),
             Text(
               "IShanka",
                 style:TextStyle(
@@ -44,6 +44,26 @@ class NinjaCard extends StatelessWidget {
                 fontWeight: FontWeight.bold
               ) ,
             ),
+            SizedBox(height: 30.0),
+
+            Text(
+              "CURRENT NINJA LEVEL",
+              style:TextStyle(
+                color: Colors.grey,
+                letterSpacing: 2.0,
+              ) ,
+            ),
+            SizedBox(height: 10.0),
+            Text(
+              "10",
+              style:TextStyle(
+                  color: Colors.amberAccent[200],
+                  fontSize: 28.0,
+                  letterSpacing: 2.0,
+                  fontWeight: FontWeight.bold
+              ) ,
+            ),
+            SizedBox(height: 30.0),
           ],
         ),
       ),
